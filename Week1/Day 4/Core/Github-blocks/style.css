@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+    margin-bottom: 3%;
+    padding: 3%;
+}
+img{
+    width: 30%;
+}
+#a {
+    background-color: rgb(158, 206, 154);
+}
+
+#b {
+    background-color: #3D52D5;
+}
+
+#c {
+    background-color: #EEB4B3;
+}
+ body {
+    background-color: aliceblue;
+ }
+
+ h1 {
+    color: darkslategrey;
+    font-size:300%;
+    text-align: center;
+ }
