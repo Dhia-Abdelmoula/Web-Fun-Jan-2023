@@ -1,0 +1,31 @@
+#search {
+    color: #00D8B1;
+    padding : 5px 35px;
+    border-color: #00D8B1 ;
+    background-color:aliceblue;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-top:20px;
+    margin-left:20px;
+}
+#add {
+    background-color: #0AEEC5 ;
+    color : white;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none ;
+    margin-left:20px;
+    margin-top : 10px ;
+    margin : collapse ;
+    padding: 5px 10px;
+}
+#create {
+    background-color: cornflowerblue;
+    color: white ; 
+    padding : 5px 25px ;
+    border-color: black;
+    border-width: 2px;
+    box-shadow: 10px 5px 5px 1px black;
+    margin-top:10px;
+    margin-left:20px;
+}
