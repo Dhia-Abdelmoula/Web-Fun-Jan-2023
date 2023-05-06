@@ -1,0 +1,33 @@
+*{
+    font-family: sans-serif ;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6c6f73;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav-links{
+    display: flex;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h1 {
+    margin: 10px;
+    color: white;
+    font-weight: lighter;
+}
+.btn{
+    background-color: aquamarine;
+    color: white;
+    box-shadow: #1f2021;
+}
