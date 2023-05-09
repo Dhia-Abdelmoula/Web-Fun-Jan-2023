@@ -9,3 +9,8 @@
     margin : 1em;
     
 }
+.col-2{
+    flex:2;
+    background-color: aqua;
+    margin : 1em;
+}
