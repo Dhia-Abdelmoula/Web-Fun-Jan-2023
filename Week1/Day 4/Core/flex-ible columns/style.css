@@ -3,8 +3,8 @@
     height: 400px;
     
 }
-.col{
-    flex:1;
+.col-3{
+    flex:3;
     background-color: aqua;
     margin : 1em;
     
