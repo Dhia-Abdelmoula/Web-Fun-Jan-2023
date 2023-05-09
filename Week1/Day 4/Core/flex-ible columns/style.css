@@ -1,0 +1,11 @@
+.row{
+    display: flex;
+    height: 400px;
+    
+}
+.col{
+    flex:1;
+    background-color: aqua;
+    margin : 1em;
+    
+}
