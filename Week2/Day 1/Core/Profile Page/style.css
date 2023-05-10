@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+/*nav desi*/
+.nav { 
+  background-color: black;  
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+/*nav title */
+.nav-title {
+    align-items: center;
+    color: white; 
+    margin-right: 10px;
+}
+/*nav link*/
+.nav-links{ 
+    display: flex;
+    flex-flow: row;
+}
+/*nav liste */
+.nav-links  li {
+
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.nav-links li a{
+    color: #A5A5A5;
+    text-decoration: none;
+}
+.nav-links li button.btn {
+    margin-left: 15em;
+    background: #17A2B8;
+    color: #eee;
+    border: 1px solid black;
+    width: 77px;
+    height: 24px;
+}
+/*My Profilr .achive*/
+.active {
+    color:  #ffff;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.row {
+    display: flex;
+}
+.col-1, .col-2{
+    margin: 10px
+}
+.col-1 {
+    flex: 1;
+    
+}
+.col-2 {
+    flex: 2;
+}
+
+.card{
+    border: 3px solid #CCCCCC;
+    margin-bottom: 16px;
+}
+.card-header{
+    background: #17A2B8;
+    height: 5rem;
+    margin: -3px;
+    border-radius: 4px;
+}
+
+.card-details li {
+    list-style-type: none;
+}
+.card-details li.Profile-image img {
+    border-radius: 50%; 
+    height: 80px;
+    border: 5px solid #CECECE;
+    padding: 2px;
+    background: #eee;
+}
+.card-details{
+    position: relative;
+    top: -2.5rem; 
+    margin: 0 2rem;
+}
+li.profile-names {
+    font-size: 1.6em;
+    font-weight: bold;
+} 
+li.profile-address,
+li.edit-profile {
+    margin: 10px 0;
+}
+li.edit-profile a {
+    color: blue;
+}
+li.edit-profile img{
+    width: 15px;
+    height: 15px;
+}
+li.profile-address img {
+    width: 10px;
+    height: 13px;
+}
+.card-title{
+    background: #333333;
+    color: white;
+    margin: -3px;
+    padding: .8rem;
+    border-radius: 3px;
+}
+.card-lists li{
+ list-style-type: none;
+}
+span.card-count{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    padding: 0 6px;
+    color: black;
+}
+/*connection req display */
+.card-lists li.request-name {
+  margin: 9px;
+  display: flex;
+  align-items: center;
+}
+/*card liste margin*/
+.card-lists li.request-name img{
+   
+    height: 30px;
+    margin-right: 10px;
+}
+/*card liste  line separator */
+.card-lists li.separator{
+    border-top: 3px solid #CCCCCC;
+    padding: 10px;
+}
+/*view more decoraton*/
+.card-lists li.separator a {
+    color: blue; 
+} 
+/*icons decoration */ 
+li.request-name .request-controls img {
+    width: 25px;
+    margin: 0;
+    height: 25px;
+
+}
+/*icons x and v*/
+li.request-name .request-controls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+p.designation{
+    padding: 10px;
+    font-weight: bold;
+}
+/*text Mute*/
+.text-mute{
+  color: grey;
+  margin-left: 10px; 
+}
+.belt-exam{
+  padding: 10px;
+  font-size: 15px;
+}
