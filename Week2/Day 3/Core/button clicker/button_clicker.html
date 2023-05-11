@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+    <div id="navbar" >
+        <h1 class="h1_navbar">Dojonary</h1>
+        <input class="search_bar" type="text" placeholder="Search">
+        <button  class="navbar_button" onclick="logout(this)"> login </button>
+    </div>
+
+   
+
+    <div id="main_container">
+       
+        
+        <div class="left_boxes">
+            
+            
+            <div class="top">
+
+                <div class="ninja_likes">
+                    <h1 class="ninja">ninja</h1>
+                    <h3 class="noun">noun</h3>
+                    <h3 class="plural">plural: ninjas</h3>
+                    <button onclick="like()" class="button_likes" >13 likes</button>
+                </div>
+                <h1 class="japanese" >A practitioner skilled in the <br>
+                    <a href="#">japanese</a> art of <a href="#">ninjutsu</a> </h1>
+            </div>
+
+            
+            
+            <div class="bottom">
+                <div class="ninja_likes2">
+                <h1 class="ninja">ninja</h1>
+                <h3 class="noun">noun</h3>
+                <h3 class="plural">plural: ninjas</h3>
+                <button onclick="like()" class="button_likes">37 likes</button>
+                </div>
+            <h1 class="japanese">A practitioner skilled in the <br>
+                <a href="#">japanese</a> art of <a href="#">ninjutsu</a>
+            </h1>
+            </div>
+            
+        </div>
+            
+        
+            <div class="right_box">
+                <h2 class="text_small"> Dojonary is <br> defined by <strong>you</strong>   </h2>
+                <button  class="button_def" onclick="hide(this)">add definition</button>
+            
+            </div>
+        </div>
+    </div>
+    <button class="last_button" >Click Me!</button>
+    <script src="script.js"></script>
+
+</body>
+</html>
