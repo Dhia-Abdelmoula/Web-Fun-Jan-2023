@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt Exam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="insidenav">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="heart-light.png" alt="heart image">
+                    <h1>Pet Shelter</h1>
+                </div>
+                <nav class="smallnav">
+                    <ul>
+                        <li>Find a Pet</li>
+                        <li>About</li>
+                    </ul>
+                    <button id="donate" onclick="remove(this)">Donate</button>
+
+                </nav>
+
+            </div>
+            <div class="search">
+                <div class="specs">
+                    <p class="search-options" >
+                        I'm looking for a...
+                    </p>
+                    <div class="specsearch">
+                        <img src="paw-light.png" alt="paw">
+                        <select  id="scroll" onchange="disclaimer()">
+                            <option value="general" >Any Pet</option>
+                            <option value="cat" >Cat</option>
+                            <option value="dog" >Dog</option>
+                            <option value="snake" >Snake</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="specs">
+                    <p classs="search-options" id="sp">
+                        in or near...
+                    </p>
+                    <div class="specsearch">
+                        <img src="pin-light.png" alt="pin">
+                        <input type="text">
+                    </div>
+                </div>
+                <button id="searching">
+                    Find your new best friend
+                </button>
+            </div>
+
+        </div>
+        
+    </nav>
+    <div class="petting">
+        <div class="petname">
+            <img src="pepper.jpg" alt="pepper">
+            <div class="pet-description">
+                <h2>Pepper</h2>
+                <p>Pepper is a slightly shy grey tabby but she really loves showing he human affection
+
+                </p>
+            </div>
+            <div class="counter">
+                <p><span id="pepper">0</span> pettings</p>
+                <button class="petx" onclick="pettings(pepper)">Pet Pepper</button>
+            </div>
+        </div>
+        <div class="petname">
+            <img src="bruce.jpg" alt="bruce">
+            <div class="pet-description">
+                <h2>Bruce</h2>
+                <p>
+                    Bruce is a loyal companion. He loves long walks and cold weather.
+                </p>
+            </div>
+            <div class="counter">
+                <p><span id="Bruce">0</span> pettings</p>
+                <button class="petx" onclick="pettings(Bruce)">Pet Bruce</button>
+            </div>
+        </div>
+        <div class="petname">
+            <img src="oscar.jpg" alt="oscar">
+            <div class="pet-description">
+                <h2>Oscar</h2>
+                <p>
+                    Oscar is bright, energetic and friendly. He is looking for a good home.
+                </p>
+            </div>
+            <div class="counter">
+                <p><span id="oscar">0</span > pettings</p>
+                <button class="petx" onclick="pettings(oscar)">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

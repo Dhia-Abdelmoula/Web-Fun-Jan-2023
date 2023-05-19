@@ -1,0 +1,72 @@
+*{
+    font-family:'comic sans ms';
+}
+nav{
+    background-color:#119b9d ;
+    align-items: center;
+    
+}
+.navbar, .logo, ul, .petname, .smallnav, .specsearch, .search{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    gap: 15px;
+    align-items: center;
+}
+h1{
+    color: white;
+    
+}
+li {
+    list-style-type: none; 
+}
+#donate {
+    padding: 5px;
+    height: 30px;
+    border-radius: 15px;
+    border-color: rebeccapurple;
+    color: rebeccapurple;
+    font-weight: bolder;
+}
+select {
+    height: 40px;
+    width: 100px;
+}
+input{
+    height: 40px;
+    width: 150px;
+}
+#searching{
+    box-shadow: 5px 5px  black;
+    background-color: rebeccapurple;
+    color: white;
+    border-color: black;
+    height: 30px;
+}
+.petname{
+    background-color: lightgrey;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+.insidenav, .petting {
+    max-width: 900px;
+    min-width: 450px;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: min(30px,20%);
+}
+.counter  {
+    width: 150px;
+}
+.petx {
+    width: 150 px;
+    background-color: aqua;
+    box-shadow: 5px 5px  black;
+}
+.pet-description {
+    text-align: left;
+}
+.search-options, #sp{
+    color: white;
+}
