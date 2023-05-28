@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>add user</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>add user</h1>
+            <a href="/" class="btn btn-default pull-right">Home</a>
+            <form action="/user/create" method="POST">
+                <div class="form-group">
+                    <label for="first_name">First name:</label>
+                    <input type="text" class="form-control" name="first_name" value="">
+                </div>
+                <div class="form-group">
+                    <label for="last_name">Last name:</label>
+                    <input type="text" class="form-control" name="last_name" value="">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" name="email" value="">
+                </div>
+                <button type="submit" class="btn btn-primary">update</button>
+            </form> 
+        </div>
+    </body>
+</html>

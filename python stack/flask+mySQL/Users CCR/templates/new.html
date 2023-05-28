@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add a new user</title>
+    </head>
+    <body>
+        <h1>Add a new user</h1>
+        <a href="/" style="position: absolute; top: 0; right: 0;">Home</a>
+        <form action="/user/create" method="POST">
+            <label for="first_name">First name:</label><br>
+            <input type="text" name="first_name"><br>
+            <label for="last_name">Last name:</label><br>
+            <input type="text" name="last_name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email"name="email"><br><br>
+            <input type="submit" value="Create">
+        </form> 
+    </body>
+</html>
